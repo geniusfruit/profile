@@ -1,5 +1,7 @@
 body {
-    background: #f4f4f4;
+    background-image: url("../img/bg.jpeg");
+    background-repeat: repeat;
+   // background: #f4f4f4;
     color: #757575;
     font-family: 'Alegreya Sans', sans-serif;
     letter-spacing: 2px;
@@ -8,9 +10,9 @@ body {
 
 .container {
     background: #fff;
-    padding: 70px 75px;
-    //margin: 50px auto;
-    border: 1px solid darkgreen;
+    padding: 35px 75px;
+    margin: 50px auto;
+    border: 2px solid black;
 }
 
 img {
@@ -22,7 +24,8 @@ img {
 }
 
 hr {
-    margin: 40px 0;
+   // margin: 40px 0;
+    margin-top: 5px;
 }
 
 h1 {
@@ -118,6 +121,12 @@ blockquote {
 .year,
 .share {
     text-align: right;
+}
+
+.designation {
+    font-size: 1.3em;
+    background: #fcfcfc;
+    padding: 5px;
 }
 
 footer p,
